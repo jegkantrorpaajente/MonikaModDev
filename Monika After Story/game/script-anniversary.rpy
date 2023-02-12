@@ -5,7 +5,7 @@ init -2 python in mas_anni:
     # persistent pointer so we can use it
     __persistent = renpy.game.persistent
 
-    def build_anni(years=0, months=0, weeks=0, isstart=True):
+    def build_anni(years=2023, months=1, weeks=3, isstart=True):
         """
         Builds an anniversary date.
 
